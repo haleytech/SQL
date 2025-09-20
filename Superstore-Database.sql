@@ -46,6 +46,18 @@ SELECT MIN(price) AS min_kitchen_price
 FROM superstore
 WHERE category = 'Kitchen Supplies';
 
+-- -----------------------------------------------------------
+-- Conclusion:
+-- These queries demonstrate basic SQL skills, including:
+--   1. Ordering results (ORDER BY)
+--   2. Using aggregate functions (AVG, MIN)
+--   3. Filtering rows with WHERE conditions
+--   4. Retrieving specific item information
+-- This project highlights how SQL can be applied to analyze 
+-- product pricing, categories, and inventory in a dataset.
+-- -----------------------------------------------------------
+
+
 -- 4. Find how many Memory Foam Mattresses are in stock
 SELECT stock_quantity, item_name
 FROM superstore
