@@ -46,6 +46,11 @@ SELECT MIN(price) AS min_kitchen_price
 FROM superstore
 WHERE category = 'Kitchen Supplies';
 
+-- 4. Find how many Memory Foam Mattresses are in stock
+SELECT stock_quantity, item_name
+FROM superstore
+WHERE item_name = 'Memory Foam Mattress';
+
 -- -----------------------------------------------------------
 -- Conclusion:
 -- These queries demonstrate basic SQL skills, including:
@@ -56,9 +61,3 @@ WHERE category = 'Kitchen Supplies';
 -- This project highlights how SQL can be applied to analyze 
 -- product pricing, categories, and inventory in a dataset.
 -- -----------------------------------------------------------
-
-
--- 4. Find how many Memory Foam Mattresses are in stock
-SELECT stock_quantity, item_name
-FROM superstore
-WHERE item_name = 'Memory Foam Mattress';
